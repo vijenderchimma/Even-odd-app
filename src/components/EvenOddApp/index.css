@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.content-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 80%;
+  height: 500px;
+  margin: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-size: 40px;
+}
+.description {
+  color: #334155;
+  font-size: 30px;
+}
+.para {
+  color: #334155;
+  font-size: 15px;
+}
+.increment-button {
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
